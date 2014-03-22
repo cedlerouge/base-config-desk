@@ -26,6 +26,6 @@ set sw=4                       " taille des indentations
 set tw=0                       " textwidth: largeur du texte (pour la coeure) 0=pas de limite
 set expandtab                  " converti les tab en espaces
 
-
+filetype plugin indent on      " enable filetype and filetype plugin and indent for specific file 
 
 
