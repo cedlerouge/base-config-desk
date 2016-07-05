@@ -40,7 +40,7 @@ case "$TERM" in
 esac
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[1;34m\]\A\[\033[00m\] - ${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u\[\033[00m\]@\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
+    PS1='\[\033[1;34m\]\A\[\033[00m\] - ${debian_chroot:+($debian_chroot)}\[\033[00;32m\]\u\[\033[00;33m\]@\h\[\033[00m\]:\[\033[00;37m\]\w\[\033[00m\]\$ '
 else
     PS1='\A - $PREPROMPT - ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
